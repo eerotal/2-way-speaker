@@ -1,5 +1,5 @@
 Cabinet volume = 20l
-Cabinet tuning frequenxy (Fb) = 38
+Cabinet tuning frequenxy (Fb) = 41.97
 
 woofer = Visaton W-170 S 8Ohm
 tweeter = Visaton SC-10 N
