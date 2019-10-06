@@ -5,6 +5,13 @@ woofer = Visaton W-170 S 8Ohm
 tweeter = Visaton SC-10 N
 
 Port
+	number of ports = 2
+	port shape = round
+	id = 21.409
+	od = 24.409
+	length = 195.8
+
+Port
 	number of ports = 1
 	port shape = square
 	flared = both ends
