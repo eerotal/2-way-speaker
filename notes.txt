@@ -1,5 +1,5 @@
 Cabinet volume = 20l
-Cabinet tuning frequenxy (Fb) = 41.97
+Cabinet tuning frequenxy (Fb) = 42.49
 
 woofer = Visaton W-170 S 8Ohm
 tweeter = Visaton SC-10 N
@@ -10,8 +10,13 @@ Port
 	id = 21.409
 	od = 24.409
 	length = 195.8
+	
+	Dist to opposite wall = 8cm
+	Dist between port and bottom = 11cm
+	Dist between port and top = 22mm
+	Dist between port and walls = 7mm	
 
-Port
+Old Port
 	number of ports = 1
 	port shape = square
 	flared = both ends
