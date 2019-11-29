@@ -1,0 +1,44 @@
+\documentclass[10pt]{article}
+
+\usepackage[a4paper,left=20mm, right=20mm, top=20mm, bottom=20mm]{geometry}
+\usepackage{titling}
+\usepackage{pdfpages}
+
+\title{2-way Concrete Speaker Documentation}
+\author{Eero Talus}
+\date{\today}
+
+%\renewcommand\maketitlehooka{\null\mbox{}\vfill}
+%\renewcommand\maketitlehookd{\vfill\null}
+
+\begin{document}
+\begin{titlingpage}
+\maketitle
+\tableofcontents
+\end{titlingpage}
+
+\pagebreak
+\null
+\vfil
+\centering\section{Mechanical drawings}
+\vfil
+\pagebreak
+
+\includepdf[landscape=true]{../drawings/Front_Plate_Drawing.pdf}
+\includepdf[landscape=true]{../drawings/Back_Plate_Drawing.pdf}
+\includepdf[landscape=true]{../drawings/Shell_Drawing.pdf}
+\includepdf[landscape=true]{../drawings/Port_Drawing.pdf}
+\includepdf[landscape=true]{../drawings/Assembly_Drawing.pdf}
+
+\pagebreak
+\null
+\vfil
+\centering\section{Crossover simulation graphs}
+\vfil
+\pagebreak
+
+\includepdf[]{../crossover/ngspice/gain.pdf}
+\includepdf[]{../crossover/ngspice/in_pwr.pdf}
+\includepdf[]{../crossover/ngspice/r_pwr.pdf}
+\includepdf[]{../crossover/ngspice/spk_pwr.pdf}
+\end{document}

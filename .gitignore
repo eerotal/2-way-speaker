@@ -1,2 +1,9 @@
 *.FCStd[0-9]*
+*.out
+*.aux
+*.log
+*.pdf
+*.gz
+*.ps
+*.toc
 exports/
