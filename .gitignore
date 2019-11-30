@@ -9,6 +9,7 @@
 *.gz
 *.ps
 *.toc
+latex/auto/
 
 # KiCad backup files.
 *.kicad_pcb-bak
