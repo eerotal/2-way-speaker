@@ -1,4 +1,7 @@
+# FreeCAD backup files.
 *.FCStd[0-9]*
+
+# LaTeX logs etc.
 *.out
 *.aux
 *.log
@@ -6,4 +9,11 @@
 *.gz
 *.ps
 *.toc
+
+# KiCad backup files.
+*.kicad_pcb-bak
+*.sch-bak
+fp-info-cache
+
+# Exported 3D models.
 exports/
