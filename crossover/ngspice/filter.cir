@@ -64,6 +64,10 @@ hardcopy in_pwr.ps input_pwr ylabel 'Power (W)' xlabel 'Frequency' title 'Input 
 let Vg_woofer = v(R1_2)/v(in)
 let Vg_tweeter = v(R3_2)/v(in)
 hardcopy gain.ps vdb(Vg_woofer) vdb(Vg_tweeter) ylabel 'Voltage gain (dB)' xlabel 'Frequency' title 'Voltage gain at speaker inputs'
+
+* Plot absolute speaker input currents.
+hardcopy in_current.ps i(VS_WOOFER) i(VS_TWEETER) ylabel 'Current (A)' xlabel 'Frequency' title 'Speaker input current magnitude'
+
 .endc
 
 .end
