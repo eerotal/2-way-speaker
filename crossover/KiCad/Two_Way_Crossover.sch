@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Two_Way_Crossover-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -20,7 +19,7 @@ U 1 1 5DE237B9
 P 1400 1350
 F 0 "L1" V 1590 1350 50  0000 C CNN
 F 1 "1m" V 1499 1350 50  0000 C CNN
-F 2 "Inductor_THT:L_Radial_D40.6mm_P26.16mm_Vishay_IHB-5" H 1400 1350 50  0001 C CNN
+F 2 "etal_Inductors:Radial_D36.5mm_H12.0mm_P23.0mm" H 1400 1350 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/df8507a2705344364f8bbbdd89330ed2/VISATON-SP.pdf" H 1400 1350 50  0001 C CNN
 F 4 "Visaton 4986" V 1400 1350 50  0001 C CNN "#"
 	1    1400 1350
@@ -83,7 +82,7 @@ U 1 1 5DE2AE0A
 P 1650 3350
 F 0 "L2" H 1702 3396 50  0000 L CNN
 F 1 "m47" H 1702 3305 50  0000 L CNN
-F 2 "Inductor_THT:L_Radial_D40.6mm_P26.16mm_Vishay_IHB-5" H 1650 3350 50  0001 C CNN
+F 2 "etal_Inductors:Radial_D36.5mm_H12.0mm_P23.0mm" H 1650 3350 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/df8507a2705344364f8bbbdd89330ed2/VISATON-SP.pdf" H 1650 3350 50  0001 C CNN
 F 4 "Visaton 4993" H 1650 3350 50  0001 C CNN "#"
 	1    1650 3350
@@ -96,7 +95,7 @@ U 1 1 5DE2F860
 P 2150 1500
 F 0 "R1" V 1943 1500 50  0000 C CNN
 F 1 "8R2" V 2034 1500 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm" V 2080 1500 50  0001 C CNN
+F 2 "etal_Power_Resistor:Resistor_Power_Axial_L91.5_W20.2_H20.2" V 2080 1500 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/27c0719e632264b7132c0e127fb04b62/ax20w.pdf" H 2150 1500 50  0001 C CNN
 F 4 "Royal Ohm PRW020JW82JB00" V 2150 1500 50  0001 C CNN "#"
 	1    2150 1500
@@ -186,7 +185,7 @@ U 1 1 5DE420AA
 P 2150 1350
 F 0 "L3" V 2340 1350 50  0000 C CNN
 F 1 "1m" V 2249 1350 50  0000 C CNN
-F 2 "Inductor_THT:L_Radial_D40.6mm_P26.16mm_Vishay_IHB-5" H 2150 1350 50  0001 C CNN
+F 2 "etal_Inductors:Radial_D36.5mm_H12.0mm_P23.0mm" H 2150 1350 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/df8507a2705344364f8bbbdd89330ed2/VISATON-SP.pdf" H 2150 1350 50  0001 C CNN
 F 4 "Visaton 4986" V 2150 1350 50  0001 C CNN "#"
 	1    2150 1350
@@ -206,68 +205,16 @@ F 4 "Wima MKS4D052206F00KSSD" H 1900 2950 50  0001 C CNN "#"
 $EndComp
 $Comp
 L Device:R R4
-U 1 1 5DE2C82E
-P 2300 3100
-F 0 "R4" V 2093 3100 50  0000 C CNN
-F 1 "8R2" V 2184 3100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm" V 2230 3100 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/27c0719e632264b7132c0e127fb04b62/ax20w.pdf" H 2300 3100 50  0001 C CNN
-F 4 "Royal Ohm PRW020JW82JB00" V 2300 3100 50  0001 C CNN "#"
-	1    2300 3100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2150 3100 2100 3100
-Wire Wire Line
-	2100 3100 2100 2950
-Wire Wire Line
-	2100 2950 2150 2950
-Wire Wire Line
-	2100 2950 2050 2950
-Connection ~ 2100 2950
-Wire Wire Line
-	2450 3100 2500 3100
-Wire Wire Line
-	2500 3100 2500 2950
-$Comp
-L Device:R R5
 U 1 1 5DE34B39
-P 2500 3500
-F 0 "R5" V 2293 3500 50  0000 C CNN
-F 1 "8R2" V 2384 3500 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm" V 2430 3500 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/27c0719e632264b7132c0e127fb04b62/ax20w.pdf" H 2500 3500 50  0001 C CNN
-F 4 "Royal Ohm PRW020JW82JB00" V 2500 3500 50  0001 C CNN "#"
-	1    2500 3500
+P 2500 3300
+F 0 "R4" V 2293 3300 50  0000 C CNN
+F 1 "4R7" V 2384 3300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm" V 2430 3300 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/d2d66de62be8f045452af502fd3b634f/SR-Passives-CR-W.pdf" H 2500 3300 50  0001 C CNN
+F 4 "SR Passives CRL40W-4R7" V 2500 3300 50  0001 C CNN "#"
+	1    2500 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R6
-U 1 1 5DE35B56
-P 2650 3500
-F 0 "R6" V 2443 3500 50  0000 C CNN
-F 1 "8R2" V 2534 3500 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm" V 2580 3500 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/27c0719e632264b7132c0e127fb04b62/ax20w.pdf" H 2650 3500 50  0001 C CNN
-F 4 "Royal Ohm PRW020JW82JB00" V 2650 3500 50  0001 C CNN "#"
-	1    2650 3500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2650 3350 2650 3300
-Wire Wire Line
-	2650 3300 2500 3300
-Wire Wire Line
-	2500 3300 2500 3350
-Wire Wire Line
-	2500 3650 2500 3700
-Wire Wire Line
-	2500 3700 2650 3700
-Wire Wire Line
-	2650 3700 2650 3650
-Wire Wire Line
-	2500 3300 2500 3100
-Connection ~ 2500 3100
 Wire Wire Line
 	1650 2950 1650 3200
 Wire Wire Line
@@ -308,7 +255,7 @@ U 1 1 5DE621B9
 P 2600 1600
 F 0 "R2" H 2475 1650 50  0000 C CNN
 F 1 "8R2" H 2475 1550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm" V 2530 1600 50  0001 C CNN
+F 2 "etal_Power_Resistor:Resistor_Power_Axial_L91.5_W20.2_H20.2" V 2530 1600 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/27c0719e632264b7132c0e127fb04b62/ax20w.pdf" H 2600 1600 50  0001 C CNN
 F 4 "Royal Ohm PRW020JW82JB00" V 2600 1600 50  0001 C CNN "#"
 	1    2600 1600
@@ -319,10 +266,10 @@ L Device:R R3
 U 1 1 5DE65C7B
 P 2300 2950
 F 0 "R3" V 2093 2950 50  0000 C CNN
-F 1 "8R2" V 2184 2950 50  0000 C CNN
+F 1 "4R7" V 2184 2950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm" V 2230 2950 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/27c0719e632264b7132c0e127fb04b62/ax20w.pdf" H 2300 2950 50  0001 C CNN
-F 4 "Royal Ohm PRW020JW82JB00" V 2300 2950 50  0001 C CNN "#"
+F 3 "https://www.tme.eu/Document/d2d66de62be8f045452af502fd3b634f/SR-Passives-CR-W.pdf" H 2300 2950 50  0001 C CNN
+F 4 "SR Passives CRL40W-4R7" V 2300 2950 50  0001 C CNN "#"
 	1    2300 2950
 	0    1    1    0   
 $EndComp
@@ -338,12 +285,6 @@ F 3 "~" H 1200 3700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 1200 3700
-Wire Wire Line
-	2450 2950 2500 2950
-Connection ~ 2500 2950
-Wire Wire Line
-	2500 2950 3150 2950
-Connection ~ 2500 3300
 $Comp
 L Connector:Screw_Terminal_01x02 J3
 U 1 1 5DE36BA9
@@ -449,4 +390,15 @@ Text Notes 2900 2500 0    59   ~ 0
 Low-pass section
 Text Notes 2850 4000 0    59   ~ 0
 High-pass section
+Wire Wire Line
+	2450 2950 2500 2950
+Wire Wire Line
+	2050 2950 2150 2950
+Wire Wire Line
+	2500 3450 2500 3700
+Wire Wire Line
+	2500 3150 2500 2950
+Connection ~ 2500 2950
+Wire Wire Line
+	2500 2950 3150 2950
 $EndSCHEMATC
