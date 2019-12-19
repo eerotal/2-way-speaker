@@ -1,5 +1,9 @@
 #!/bin/sh
 
+#
+# Generate a concatenated documentation PDF.
+#
+
 cd crossover/ngspice/
 ngspice -b filter.cir
 for f in *.ps; do

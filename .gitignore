@@ -9,6 +9,7 @@
 *.gz
 *.ps
 *.toc
+*.lua
 latex/auto/
 
 # KiCad backup files.
