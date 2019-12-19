@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/eero/FreeCAD/2-way-speaker/crossover/KiCad/Two_Way_Crossover.sch)
-    (date "Mon 16 Dec 2019 13:32:04 EET")
+    (source /home/eero/Projects/2-way-speaker/crossover/KiCad/Two_Way_Crossover.sch)
+    (date "Thu 19 Dec 2019 16:50:32 EET")
     (tool "Eeschema 5.1.5+dfsg1-2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -62,7 +62,7 @@
       (tstamp 5DE2AE0A))
     (comp (ref R1)
       (value 8R2)
-      (footprint etal_Power_Resistor:Resistor_Power_Axial_L91.5_W20.2_H20.2)
+      (footprint Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm)
       (datasheet https://www.tme.eu/Document/27c0719e632264b7132c0e127fb04b62/ax20w.pdf)
       (fields
         (field (name "#") "Royal Ohm PRW020JW82JB00"))
@@ -112,7 +112,7 @@
       (tstamp 5DE34B39))
     (comp (ref R2)
       (value 8R2)
-      (footprint etal_Power_Resistor:Resistor_Power_Axial_L91.5_W20.2_H20.2)
+      (footprint Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm)
       (datasheet https://www.tme.eu/Document/27c0719e632264b7132c0e127fb04b62/ax20w.pdf)
       (fields
         (field (name "#") "Royal Ohm PRW020JW82JB00"))
