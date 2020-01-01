@@ -3,6 +3,8 @@
 \usepackage[a4paper,left=20mm, right=20mm, top=20mm, bottom=20mm]{geometry}
 \usepackage{pdfpages}
 \usepackage{markdown}
+\usepackage{multicol}
+\usepackage{caption}
 
 \title{2-way Concrete Speaker Documentation}
 \author{Eero Talus}
@@ -36,9 +38,9 @@ increase its mass and to improve speaker performance.\\
 \noindent The speaker uses a crossover circuit made using third order
 Butterworth filters. Speaker impedance and sensitivity matching was also taken
 into account while desiging the filter. All design and documentation files were
-created using open file formats, tools and technologies.
+created using open file formats, tools and technologies.\\
 
-\noindent You can run the bash script \texttt makedocs.sh to generate this
+\noindent You can run the shell script \texttt makedocs.sh to generate this
 PDF file.
 
 \section{Respository directory structure}
@@ -105,12 +107,10 @@ the file \texttt LICENSE.txt in the root of the repository.
 \centering\section{Mechanical drawings}
 \vfil
 \pagebreak
-
 \includepdf[landscape=true]{../drawings/Front_Plate_Drawing.pdf}
 \includepdf[landscape=true]{../drawings/Back_Plate_Drawing.pdf}
 \includepdf[landscape=true]{../drawings/Shell_Drawing.pdf}
 \includepdf[landscape=true]{../drawings/Port_Drawing.pdf}
-\includepdf[landscape=true]{../drawings/Assembly_Drawing.pdf}
 
 \pagebreak
 \null
@@ -118,10 +118,12 @@ the file \texttt LICENSE.txt in the root of the repository.
 \centering\section{Crossover simulation graphs}
 \vfil
 \pagebreak
+\begin{multicols}{2}
+	\includegraphics[scale=0.35,page=1]{../crossover/ngspice/gain.pdf}
+	\includegraphics[scale=0.35,page=1]{../crossover/ngspice/in_pwr.pdf}
+	\includegraphics[scale=0.35,page=1]{../crossover/ngspice/r_pwr.pdf}
+	\includegraphics[scale=0.35,page=1]{../crossover/ngspice/spk_pwr.pdf}
+	\includegraphics[scale=0.35,page=1]{../crossover/ngspice/in_current.pdf}
+\end{multicols}
 
-\includepdf[]{../crossover/ngspice/gain.pdf}
-\includepdf[]{../crossover/ngspice/in_pwr.pdf}
-\includepdf[]{../crossover/ngspice/r_pwr.pdf}
-\includepdf[]{../crossover/ngspice/spk_pwr.pdf}
-\includepdf[]{../crossover/ngspice/in_current.pdf}
 \end{document}

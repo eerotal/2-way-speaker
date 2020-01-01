@@ -19,3 +19,6 @@ fp-info-cache
 
 # Exported 3D models.
 exports/
+
+# Exported G Code
+models/CAM/
