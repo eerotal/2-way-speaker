@@ -7,7 +7,7 @@ full documentation. The PDF file is a concatenated version of all of the
 exported design files.
 
 License
-#######
+-------
 
 The contents of this repository are licensed under the INSERT LICENSE license
 unless otherwise noted. The full license text is included in the file
