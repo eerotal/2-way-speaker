@@ -5,7 +5,6 @@
 *.out
 *.aux
 *.log
-*.pdf
 *.gz
 *.ps
 *.toc
