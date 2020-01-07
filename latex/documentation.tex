@@ -5,6 +5,7 @@
 \usepackage{markdown}
 \usepackage{multicol}
 \usepackage{caption}
+\usepackage[none]{hyphenat}
 
 \title{2-way Concrete Speaker Documentation}
 \author{Eero Talus}
@@ -14,11 +15,38 @@
 \maketitle
 \tableofcontents
 
+\section{License}
+
+\begin{sloppypar}
+\noindent
+\texttt{Copyright Eero Talus 2020.}\\
+
+\noindent
+\texttt{This documentation describes Open Hardware and is licensed under the
+CERN OHL v. 1.2.}\\
+
+\noindent
+\texttt{You may redistribute and modify this documentation under the terms of
+the CERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed
+WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY,
+SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the
+CERN OHL v.1.2 for applicable conditions.}
+\end{sloppypar}
+
 \section{Introduction}
 
 \noindent This PDF contains documentation for my self designed vented two way
 speakers. All the design files can be found from the GIT repository at
-\url{https://github.com/eerotal/2-way-speaker}.\\
+\url{https://github.com/eerotal/2-way-speaker}. Below is a 3D render of the
+speakers.\\
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{../drawings/render.png}
+	\caption{3D render of the speaker.}
+\end{figure}
+
+\pagebreak
 
 \noindent The speaker specifications are:
 
@@ -95,12 +123,6 @@ Below is a list of the software and technologies used in this project.
 \item LaTeX: Documentation
 \end{itemize}
 
-\section{License}
-
-\noindent The contents of this repository are licensed under the INSERT
-LICENSE license unless otherwise noted. The full license text is included in
-the file \texttt LICENSE.txt in the root of the repository.
-
 \pagebreak
 \null
 \vfil
@@ -115,9 +137,10 @@ the file \texttt LICENSE.txt in the root of the repository.
 \pagebreak
 \null
 \vfil
-\centering\section{Crossover simulation graphs}
+\centering\section{Crossover schematic and simulation graphs}
 \vfil
 \pagebreak
+\includepdf[landscape=true]{../drawings/Crossover_Schematic.pdf}
 \begin{multicols}{2}
 	\includegraphics[scale=0.35,page=1]{../crossover/ngspice/gain.pdf}
 	\includegraphics[scale=0.35,page=1]{../crossover/ngspice/in_pwr.pdf}

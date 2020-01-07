@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Two Way Speaker Crossover"
-Date "2019-11-30"
-Rev "A"
+Date "2020-01-07"
+Rev "B"
 Comp "Eero Talus"
-Comment1 "W-170S woofer and a SC-10N tweeter."
+Comment1 "W-170S woofer and a Visaton SC-10 N tweeter."
 Comment2 "Two way speaker crossover for a Visaton "
 Comment3 ""
 Comment4 ""
@@ -98,6 +98,7 @@ F 1 "8R2" V 2034 1500 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm" V 2080 1500 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/27c0719e632264b7132c0e127fb04b62/ax20w.pdf" H 2150 1500 50  0001 C CNN
 F 4 "Royal Ohm PRW020JW82JB00" V 2150 1500 50  0001 C CNN "#"
+F 5 "20W" V 2150 1500 50  0000 C CNN "P"
 	1    2150 1500
 	0    -1   -1   0   
 $EndComp
@@ -209,9 +210,10 @@ U 1 1 5DE34B39
 P 2500 3300
 F 0 "R4" V 2293 3300 50  0000 C CNN
 F 1 "4R7" V 2384 3300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm" V 2430 3300 50  0001 C CNN
+F 2 "etal_Resistors_THT:Resistor_Power_Axial_L91.5_W20.2_H20.2" V 2430 3300 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/d2d66de62be8f045452af502fd3b634f/SR-Passives-CR-W.pdf" H 2500 3300 50  0001 C CNN
 F 4 "SR Passives CRL40W-4R7" V 2500 3300 50  0001 C CNN "#"
+F 5 "40W" V 2500 3300 50  0000 C CNN "P"
 	1    2500 3300
 	1    0    0    -1  
 $EndComp
@@ -258,6 +260,7 @@ F 1 "8R2" H 2475 1550 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm" V 2530 1600 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/27c0719e632264b7132c0e127fb04b62/ax20w.pdf" H 2600 1600 50  0001 C CNN
 F 4 "Royal Ohm PRW020JW82JB00" V 2600 1600 50  0001 C CNN "#"
+F 5 "20W" V 2600 1600 50  0000 C CNN "P"
 	1    2600 1600
 	-1   0    0    1   
 $EndComp
@@ -267,9 +270,10 @@ U 1 1 5DE65C7B
 P 2300 2950
 F 0 "R3" V 2093 2950 50  0000 C CNN
 F 1 "4R7" V 2184 2950 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm" V 2230 2950 50  0001 C CNN
+F 2 "etal_Resistors_THT:Resistor_Power_Axial_L91.5_W20.2_H20.2" V 2230 2950 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/d2d66de62be8f045452af502fd3b634f/SR-Passives-CR-W.pdf" H 2300 2950 50  0001 C CNN
 F 4 "SR Passives CRL40W-4R7" V 2300 2950 50  0001 C CNN "#"
+F 5 "40W" V 2300 2950 50  0000 C CNN "P"
 	1    2300 2950
 	0    1    1    0   
 $EndComp
@@ -401,4 +405,8 @@ Wire Wire Line
 Connection ~ 2500 2950
 Wire Wire Line
 	2500 2950 3150 2950
+Text Notes 7000 6500 0    50   ~ 0
+Copyright Eero Talus 2020.\n\nThis documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.\n\nYou may redistribute and modify this documentation under the terms of the CERN OHL\nv.1.2. (http://ohwr.org/cernohl). This documentation is distributed WITHOUT ANY EXPRESS\nOR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND\nFITNESS FOR A PART
+Text Notes 4650 2500 0    157  ~ 0
+Note!\n\nThe sample PCB design included in this project is\nUNTESTED. Make sure it's correct before building\none or build the crossover on a protoboard for\nexample. The schematic should be correct since\nI built a crossover according to it.
 $EndSCHEMATC

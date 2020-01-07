@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/eero/Projects/2-way-speaker/crossover/KiCad/Two_Way_Crossover.sch)
-    (date "Thu 19 Dec 2019 16:50:32 EET")
+    (date "Tue 07 Jan 2020 14:37:16 EET")
     (tool "Eeschema 5.1.5+dfsg1-2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -103,7 +103,7 @@
       (tstamp 5DE279DD))
     (comp (ref R4)
       (value 4R7)
-      (footprint Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm)
+      (footprint etal_Resistors_THT:Resistor_Power_Axial_L91.5_W20.2_H20.2)
       (datasheet https://www.tme.eu/Document/d2d66de62be8f045452af502fd3b634f/SR-Passives-CR-W.pdf)
       (fields
         (field (name "#") "SR Passives CRL40W-4R7"))
@@ -121,7 +121,7 @@
       (tstamp 5DE621B9))
     (comp (ref R3)
       (value 4R7)
-      (footprint Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm)
+      (footprint etal_Resistors_THT:Resistor_Power_Axial_L91.5_W20.2_H20.2)
       (datasheet https://www.tme.eu/Document/d2d66de62be8f045452af502fd3b634f/SR-Passives-CR-W.pdf)
       (fields
         (field (name "#") "SR Passives CRL40W-4R7"))
