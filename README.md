@@ -6,8 +6,8 @@ See the PDF file at `latex/documentation.pdf` for the full documentation.
 The PDF file is a concatenated version of all of the exported design files.
 
 The contents of this repository are licensed under the CERN OHL v1.2 license
-unless otherwise noted. The full license can be found in the file
-cern_ohl_v_1_2.pdf in the root of this repository.
+unless otherwise noted. The full license can be found in the file LICENSE.pdf
+in the root of this repository.
 
 License
 -------
