@@ -1,6 +1,8 @@
 Two Way Concrete Speakers
 -------------------------
 
+![Two Way Speaker](https://github.com/eerotal/2-way-speaker/raw/master/drawings/render.png "Two Way Speaker")
+
 This repository contains all design files for my two way concrete speakers
 See the PDF file at `latex/documentation.pdf` for the full documentation.
 The PDF file is a concatenated version of all of the exported design files.
